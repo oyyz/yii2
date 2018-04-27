@@ -246,7 +246,7 @@ server {
     listen 80; ## listen for ipv4
     #listen [::]:80 default_server ipv6only=on; ## listen for ipv6
 
-    server_name mysite.test;
+    server_name mysite.local;
     root        /path/to/basic/web;
     index       index.php;
 
